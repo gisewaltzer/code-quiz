@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-
-=======
 # code-quiz
 
 ## Purpose
@@ -21,4 +17,4 @@ https://gisewaltzer.github.io/code-quiz/
 
 ## Contribution
 Made with ❤️ by Gisella Waltzer
->>>>>>> a015802d0e5852d59ad65e5e6cad349d28a91868
+
