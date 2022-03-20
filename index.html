@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Code-Quiz</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <section id="start-page" class="container">
+    <h1 id="question" class="page-title">Coding Quiz Challenge</h1>
+    <p class="instructions">Try to answer the following code-related questions within the time limit.
+      <br>
+      Keep in mind that incorrect answers will penalize your score/time by ten seconds!
+    </p>
+
+    <button id="start-btn" class="btn btn-start-quiz">Start Quiz</button>
+  </section>
+
+
+  <section id="question-page">
+    <h3 id="timer-text">75</h3>
+
+    <h1 id="question-text">1. What was JavaScript originally called?</h1>
+    <div class="answer-buttons">
+      <button id="answer-button1" class="btn correct">1. Mocha</button>
+      <br />
+      <button id="answer-button2" class="btn wrong">2. Java</button>
+      <br />
+      <button id="answer-button3" class="btn wrong">3. LiveScript</button>
+      <br />
+      <button id="answer-button4" class="btn wrong">4. TypeScript</button>
+    </div>
+  </section>
+
+  <section id="score-page">
+    <h1>All done!</h1>
+    Your score is <strong><span id="score-text"></span></strong>
+    <br />
+    Enter initials: <input id="initials-input" type="text" /> <button id="score-submit-button"
+      class="btn">Submit</button>
+  </section>
+
+  <section id="high-scores-page">
+    <h1>High Scores</h1>
+    <ol id="high-scores-list">
+    </ol>
+    <button id="go-back-button" class="btn">Go Back</button>
+  </section>
+
+
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,126 @@
+
+.page-title {
+    font-style: calc(80px);
+    size: 50%;
+    color: blue
+    
+}
+
+body {
+    text-align: center;
+}
+
+#start-btn {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    width:100px;
+}
+
+#answer-button1 {
+    flex-direction: row;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    background-color: blue;
+    border-radius: 10px;
+    width:100px;
+}
+#answer-button2 {
+    flex-direction: row;
+    color: white;
+    background-color: blue;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    width:100px;
+}
+
+#answer-button3 {
+    flex-direction: row;
+    color: white;
+    background-color: blue;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    width:100px;
+}
+
+#answer-button4 {
+    flex-direction: row;
+    color: white;
+    background-color: blue;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    width:100px;    
+}
+
+#go-back-button {
+    flex-direction: row;
+    color: white;
+    background-color: blue;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    width:100px;    
+}
+
+#score-submit-button {
+    flex-direction: row;
+    color: white;
+    background-color: blue;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    width:100px;  
+}
+
+#question-page {
+    display:flex;
+    flex-direction: row;
+    color: black;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 50px;
+}
+
+.btn:hover {
+    background-color: rgb(70, 82, 255) !important;
+}
+
+.instructions {
+    font-style: calc(40px);
+    size: 20%;
+    color: black
+}
+
+#question01 {
+    size: 50%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: blue;
+    
+}
+.score {
+    font-style: calc(80px);
+    size: 50%;
+    color: blue
+}
+
+.btn {
+    margin-bottom: 10px;
+}
+
+#timer-text {
+    text-align: right;
+}
+
+ 
+
+
+
+
+    
